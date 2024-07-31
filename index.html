@@ -1,41 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset = "UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Responsive Animated Login Form Using HTML CSS only | codehal</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Delivery Website</title>
+
+     <!--font awesome cdn link-->
+     <link rel ="stylesheet" herf=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+     <!--custom css file link-->
+     <link rel="stylesheet" href="style.css">
+
+     
 </head>
-
 <body>
+    <header class ="header">
 
-    <section>
-    <div class="Login-box">
-        <form action="">
-            <h2>Login</h2>
-            <div class="input-box">
-                <span class="icon"><ion name="mail"></span>
-                <input type="email"required>
-                <label>Email</label>
-            </div>
-            <div class="input-box">
-                <span class="icon"><ion-icon name="lock"></ion-icon></span>
-                <input type="password"required>
-                <label>Password</label>
-            </div>
-            <div class="remember-forgot">
-                <label><input type="checkbox"> Remember me</label>
-                <a href="#">Forgot Password?</a>
-            </div>
-            <button type="Submit">Login</button>
-            <div class="register-link">
-                <p>Don't have an account?<a href="#">Register</a></p>
-            </div>
-        </form>
-    </div>
-</section>
+        <a href="#" class="logo"><i class="fa fa-shopping-cart"></i>Grocify</a>
+        
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <nav class="navbar">
+
+            <a class= "active" href="#home">Home</a>
+            <a href="#feature">Feature</a>
+            <a href="#product">Product</a>
+            <a href="#categories">categories</a>
+            <a href="#review">Review</a>
+            <a href="#blog">Blog</a>
+            <a href="#login">Login</a>
+        </nav>
+
+        <div class = "icons">
+            <i class="fa fa-bars"  id ="menu-bars"></i>
+            <i class="fa fa-search"  id= "search-icon"></i>
+            <a href= "#" class="fa fa-heart"></a>
+            <a href="#"  class="fa fa-shopping-cart"></a>
+        </div>
+    </header>
+
+   <!--header section ends-->
+
+   <!--  search form  -->
+
+   <form action ="" id="search-form">
+     <input type="search" placeholder="search here..." name="" id ="search-box">
+     <label for="search-box" class="fa fa-search"></label>
+     <i class="fa fa-times" id ="close"></i>
     
+   </form>
+    
+    <!--home section starts-->
+
+    <section class="home" id="home">
+        <div class="container">
+            <div class="wrapper">
+                <div class="slide">
+                    <div class="content">
+                        <span>our groceries</span>
+                        <h3>fresh meat</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, eos. Neque placeat optio reprehenderit quae nisi, debitis quas. Officia optio ipsam qui corrupti voluptatem consequuntur facere vitae mollitia, similique eos.</p>
+                        <a href="#"class="btn"></a>
+ 
+                    </div>
+                    <div class="image">
+                        <img src="" alt="">
+                    </div>
+                   
+                 </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+        <!--home section sends-->
+
+
+
+
+
+
+
+ <!--javascrip link-->
+ <script src="./myscripts.js"></script>
+   
 </body>
 </html>
